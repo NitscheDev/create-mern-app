@@ -8,7 +8,7 @@ const path = require('path')
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
-//MongoDB
+//Use MongoDB
 connectDB(process.env.MONGODB)
 
 //Routes
