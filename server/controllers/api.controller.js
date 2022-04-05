@@ -2,7 +2,7 @@
 
 exports.main = (req,res) => {
     res.json({
-        message: 'Hello from Node.js Rest Api',
+        message: 'Hello from MERN Rest Api',
         ok: true
     })
 }
